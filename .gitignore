@@ -1,0 +1,13 @@
+# Ignore OLD stuff
+OLD/
+
+# Ignore junk files
+JUNKYARD.R
+ExampleRun.R
+RemovalInterventionRun.R
+.dropbox
+.Rhistory
+.Rapp.history
+
+# Ignore output: too large
+output/
