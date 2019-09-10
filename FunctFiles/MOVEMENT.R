@@ -1,4 +1,12 @@
+"
+Agents 'move' by drawing 'tiles' from either their own nbhd or from another neighborhood. Once
+a tile is drawn, the agents 'moves' to that location'. The 'staying probabilities' are the 
+probabilities that an agent will draw a tile from their own nbhd, vs from a different nbhd.
+Two agents 'interact' when they move to the same tile. 
 
+If an agent is going to draw from the tiles of a different nbhd, then how they choose that 
+nbhd is based on the distance (a randomly chosen scaling factor representing distance) to that nbhd. 
+"
 # choices
 STAYING_PROBS_CHOICES <- list(
      Uniform = list(
